@@ -1,0 +1,441 @@
+Assignment-1
+Name:Neha Ojha
+RollNo:29
+------------------------------
+1. College Website
+-------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My College Website</title>
+</head>
+<body>
+
+    <h1 id="home">MET-BKC College</h1>
+    <p>Welcome to MET-BKC College</p>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#courses">Courses</a> |
+        <a href="#admissions">Admissions</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <h2 id="about">About Us</h2>
+    <p>MET-BKC College provides quality education
+    and practical knowledge to students.</p>
+
+    <h2 id="courses">Our Courses</h2>
+    <ul>
+        <li>Computer Science</li>
+        <li>Information Technology</li>
+        <li>Mechanical Engineering</li>
+        <li>Electronics Engineering</li>
+    </ul>
+
+    <h2 id="admissions">Admissions</h2>
+    <p>Admissions are open for eligible students.</p>
+    <a href="mailto:admissions@example.com">
+        Contact for Admission
+    </a>
+
+    <h2 id="contact">Contact Us</h2>
+    <p>Email: info@example.com</p>
+    <p>Phone: 9876543210</p>
+
+    <footer>
+        <p>Copyright 2026 ABC College</p>
+    </footer>
+
+</body>
+</html>
+--------------------------------------------------------
+
+2. Online Quiz Form
+------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Quiz</title>
+</head>
+<body>
+
+<h1>Online Quiz</h1>
+
+<form>
+    <p>1. Which language is used for web page structure?</p>
+    <input type="radio" name="q1"> HTML
+    <input type="radio" name="q1"> Java
+    <input type="radio" name="q1"> Python
+
+    <p>2. Which tag creates a paragraph?</p>
+    <input type="radio" name="q2"> &lt;h1&gt;
+    <input type="radio" name="q2"> &lt;p&gt;
+    <input type="radio" name="q2"> &lt;img&gt;
+
+    <p>3. Which language styles web pages?</p>
+    <input type="radio" name="q3"> CSS
+    <input type="radio" name="q3"> SQL
+    <input type="radio" name="q3"> C++
+
+    <p>4. Which tag creates a hyperlink?</p>
+    <input type="radio" name="q4"> &lt;a&gt;
+    <input type="radio" name="q4"> &lt;br&gt;
+    <input type="radio" name="q4"> &lt;hr&gt;
+
+    <p>5. Which tag displays an image?</p>
+    <input type="radio" name="q5"> &lt;img&gt;
+    <input type="radio" name="q5"> &lt;table&gt;
+    <input type="radio" name="q5"> &lt;form&gt;
+
+    <p>6. Select the web technologies you know.</p>
+    <input type="checkbox"> HTML
+    <input type="checkbox"> CSS
+    <input type="checkbox"> JavaScript
+
+    <p>7. Select the programming languages.</p>
+    <input type="checkbox"> Java
+    <input type="checkbox"> Python
+    <input type="checkbox"> HTML
+
+    <p>8. Which tag creates an unordered list?</p>
+    <input type="radio" name="q8"> &lt;ul&gt;
+    <input type="radio" name="q8"> &lt;ol&gt;
+    <input type="radio" name="q8"> &lt;tr&gt;
+
+    <p>9. Which tag creates a table row?</p>
+    <input type="radio" name="q9"> &lt;td&gt;
+    <input type="radio" name="q9"> &lt;tr&gt;
+    <input type="radio" name="q9"> &lt;th&gt;
+
+    <p>10. Which tag creates a form?</p>
+    <input type="radio" name="q10"> &lt;form&gt;
+    <input type="radio" name="q10"> &lt;body&gt;
+    <input type="radio" name="q10"> &lt;title&gt;
+
+    <br><br>
+    <input type="submit" value="Submit Quiz">
+    <input type="reset" value="Reset">
+
+</form>
+</body>
+</html>
+----------------------------------------------------------
+3. Travel Blog
+---------------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Travel Blog</title>
+</head>
+<body>
+
+<h1>My Travel Blog</h1>
+<p>Explore beautiful places in India!</p>
+
+<h2>1. Taj Mahal, Agra</h2>
+<img src="https://images.unsplash.com/photo-1564507592333-c60657eea523"
+     alt="Taj Mahal" width="350">
+<p>The Taj Mahal is a famous historical monument
+located in Agra, Uttar Pradesh.</p>
+<a href="https://www.tajmahal.gov.in/" target="_blank">
+    Visit Official Website
+</a>
+
+<h2>2. Goa Beaches</h2>
+<img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2"
+     alt="Goa beach" width="350">
+<p>Goa is famous for its beaches, scenic views,
+and beautiful sunsets.</p>
+<a href="https://www.goa-tourism.com/" target="_blank">
+    Explore Goa
+</a>
+
+<h2>3. Manali</h2>
+<img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23"
+     alt="Mountain scenery" width="350">
+<p>Manali is a popular hill station known for
+mountains and natural beauty.</p>
+<a href="https://himachaltourism.gov.in/" target="_blank">
+    Explore Himachal Pradesh
+</a>
+
+</body>
+</html>
+-------------------------------------------------
+4. Event Registration Page
+------------------------------
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+
+<h1>Web Development Workshop</h1>
+
+<p><b>Date:</b> 15 November 2026</p>
+<p><b>Time:</b> 10:00 AM</p>
+<p><b>Venue:</b> College Seminar Hall</p>
+
+<h2>Registration Form</h2>
+
+<form>
+    <label>Full Name:</label>
+    <input type="text" name="fullname" required>
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+    <br><br>
+
+    <label>Phone:</label>
+    <input type="tel" name="phone">
+    <br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" name="dob">
+    <br><br>
+
+    <label>Choose Event:</label>
+    <select name="event">
+        <option>HTML Workshop</option>
+        <option>CSS Workshop</option>
+        <option>JavaScript Workshop</option>
+    </select>
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    <label>Feedback:</label><br>
+    <textarea name="feedback" rows="4" cols="35"
+              placeholder="Enter your feedback"></textarea>
+    <br><br>
+
+    <input type="checkbox" required>
+    I agree to the event terms.
+    <br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+</form>
+
+</body>
+</html>
+-----------------------------------------------------------
+5. Personal Portfolio Website
+---------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+</head>
+<body>
+
+<h1>My Portfolio</h1>
+<p>Welcome to my personal website.</p>
+
+<nav>
+    <a href="#about">About Me</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#education">Education</a> |
+    <a href="#contact">Contact</a>
+</nav>
+
+<hr>
+
+<h2 id="about">About Me</h2>
+<p>Hello! I am a Computer Science graduate
+interested in programming and data science.</p>
+
+<h2 id="skills">My Skills</h2>
+<ul>
+    <li>Python</li>
+    <li>SQL</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Java</li>
+</ul>
+
+<h2 id="projects">My Projects</h2>
+<ol>
+    <li>Face Recognition Attendance System</li>
+    <li>Dynamic Pricing for Fitness Classes</li>
+    <li>Book Review Website</li>
+</ol>
+
+<h2 id="education">Education</h2>
+<table border="1" cellpadding="8">
+    <tr>
+        <th>Qualification</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>B.Tech Computer Science</td>
+        <td>2025</td>
+    </tr>
+</table>
+
+<h2 id="contact">Contact Me</h2>
+<p>Email: sumedha@example.com</p>
+<p>GitHub:
+<a href="https://github.com/sumedhap11">My GitHub</a>
+</p>
+<p>LinkedIn:
+<a href="https://linkedin.com/in/sumedha-patil-4851a7258">
+My LinkedIn
+</a>
+</p>
+
+</body>
+</html>
+-------------------------------------------------------------------
+6–7. Book Review Page
+
+-----------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Review</title>
+</head>
+<body>
+
+<h1>My Book Review</h1>
+
+<h2>Wings of Fire</h2>
+
+<img src="https://covers.openlibrary.org/b/isbn/9788173711466-L.jpg"
+     alt="Wings of Fire book cover" width="200">
+
+<p><b>Author:</b> A. P. J. Abdul Kalam with Arun Tiwari</p>
+
+<h3>Book Summary</h3>
+<p>Wings of Fire is an autobiography that describes
+Dr. A. P. J. Abdul Kalam's early life, education,
+scientific career, and journey toward becoming
+the President of India.</p>
+
+<h3>My Review</h3>
+<p>I like this book because it teaches us about
+hard work, dedication, and never giving up.
+It is inspiring for students who want to achieve
+their goals.</p>
+
+<p><b>Rating:</b> 5/5</p>
+
+</body>
+</html>
+
+
+----------------------------------------------------
+8–9. Favorite Movies Page
+-----------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Favorite Movies</title>
+</head>
+<body>
+
+<h1>My Favorite Movies</h1>
+
+<h2>1. 3 Idiots</h2>
+<img src="https://placehold.co/200x280?text=3+Idiots"
+     alt="3 Idiots poster" width="200">
+<p>Genre: Comedy / Drama</p>
+<p>Release Year: 2009</p>
+
+<h2>2. Dangal</h2>
+<img src="https://placehold.co/200x280?text=Dangal"
+     alt="Dangal poster" width="200">
+<p>Genre: Sports / Drama</p>
+<p>Release Year: 2016</p>
+
+<h2>3. Taare Zameen Par</h2>
+<img src="https://placehold.co/200x280?text=Taare+Zameen+Par"
+     alt="Taare Zameen Par poster" width="200">
+<p>Genre: Drama</p>
+<p>Release Year: 2007</p>
+
+<h2>4. Zindagi Na Milegi Dobara</h2>
+<img src="https://placehold.co/200x280?text=ZNMD"
+     alt="Zindagi Na Milegi Dobara poster" width="200">
+<p>Genre: Adventure / Comedy</p>
+<p>Release Year: 2011</p>
+
+<h2>5. Chhichhore</h2>
+<img src="https://placehold.co/200x280?text=Chhichhore"
+     alt="Chhichhore poster" width="200">
+<p>Genre: Comedy / Drama</p>
+<p>Release Year: 2019</p>
+
+</body>
+</html>
+------------------------------------------------------------------
+10–11. Recipe Book
+-------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Recipe Book</title>
+</head>
+<body>
+
+<h1>My Recipe Book</h1>
+
+<h2>Vegetable Sandwich</h2>
+
+<img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af"
+     alt="Vegetable sandwich" width="350">
+
+<p><b>Preparation Time:</b> 10 minutes</p>
+<p><b>Cooking Time:</b> 5 minutes</p>
+<p><b>Servings:</b> 2 people</p>
+
+<h3>Ingredients</h3>
+<ul>
+    <li>4 slices of bread</li>
+    <li>1 small tomato</li>
+    <li>1 small cucumber</li>
+    <li>1 small onion</li>
+    <li>2 tablespoons butter</li>
+    <li>Salt and pepper to taste</li>
+    <li>Green chutney (optional)</li>
+</ul>
+
+<h3>Cooking Steps</h3>
+<ol>
+    <li>Wash and slice the vegetables.</li>
+    <li>Spread butter or green chutney on the bread.</li>
+    <li>Add tomato, cucumber, and onion slices.</li>
+    <li>Sprinkle salt and pepper.</li>
+    <li>Cover with another slice of bread.</li>
+    <li>Toast in a pan until golden, if desired.</li>
+    <li>Cut and serve fresh.</li>
+</ol>
+
+<h3>Serving Suggestion</h3>
+<p>Serve with tomato ketchup or green chutney.</p>
+
+</body>
+</html>
+===============================================================
+
+
+
